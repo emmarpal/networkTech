@@ -1,0 +1,101 @@
+/* general styles */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #1f1f1f;
+    margin: 30px auto; /* vertical space */
+    max-width: 900px; /* limiting the width */
+    line-height: 1.6; /* more space btween lines */
+}
+
+h1, h2 {
+    color: #1e3a8a;
+    margin-top: 30px;
+}
+
+h1 {
+    border-bottom: 3px solid #3b82f6; /* blue line */
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header p:last-child {
+    font-style: italic;
+    color: #555;
+}
+
+
+/* paragraphs and code */
+p {
+    margin: 15px 0;
+}
+
+code {
+    background-color: #e5e7eb;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+}
+
+/*images*/
+img {
+    display: block; /* centers img */
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+
+img:hover {
+    transform: scale(1.02); /* zoom */
+}
+
+/*list*/
+ol {
+    margin: 15px 0 25px 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/*table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #d1d5db;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3b82f6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f4f6; /* alternate row color */
+}
+
+
